@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Partidos de Futbol</title>
+    <h1>Calculo de Partidos de Futbol</h1>
+</head>
+<body>
+    <script>
+    
+        function saltarLinea() {
+            document.write("<br> <br> <br>");
+        };
+        function imprimir (texto){
+            document.write(texto);
+            saltarLinea();
+        };
+
+        let victorias = parseInt(prompt("Ingrese el numero de victorias del equipo: "));
+        let derrotas = parseInt(prompt("Ingrese el numero de derrotas del equipo: "));
+        let empates = parseInt(prompt("Ingrese el numero de empates del equipo: "));
+
+        puntosTotales = victorias*3 + empates * 1 + derrotas * 0;
+
+        imprimir("El equipo tiene " + puntosTotales + " puntos.");
+
+        // if (puntosTotales >= 10) {
+        //     imprimir("El equipo es buenardo.");
+        // } else if (puntosTotales >= 7) {
+        //     imprimir("El equipo esta en orden.");
+        // } else if (puntosTotales >= 4) {
+        //     imprimir("El equipo va mas o menos.");
+        // } else {
+        //     imprimir("El equipo es malardo.");
+        // };
+        let puntosAnio21 = 10
+        let puntosAnio19 = 7
+        let puntosAnio20 = 4
+       puntosTotales  === 10 ? imprimir("El equipo es mejor que el de 2019 y 2020 y 2021.") : puntosTotales <= 8 ? imprimir("El equipo esta mejor que el de 2019 2020 pero no que el de 2021.") : puntosTotales <= 4 ? imprimir("El equipo es el peor de los ultimos 4 años.") : imprimir("El equipo es el mejor de los ultimos 4 años.");
+
+       
+
+            
+        
+    </script>
+    
+</body>
+</html>

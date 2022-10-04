@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas
+        width="600" height="400"></canvas>;
+
+    
+    <script>
+
+        function pintarCuadrado(x, y, color) {
+        let pantalla = document.querySelector("canvas");
+        let pincel = pantalla.getContext("2d");    
+        pincel.fillStyle = color; 
+        pincel.fillRect(x,y,50,50);
+        pincel.strokeStyle = "black";
+        pincel.strokeRect(x,y,50,50);
+        }
+      
+        // var x = 0;
+        // while (x < 600) {
+        //     pintarCuadradoVerde(x,0,"green");
+        //     x = x + 50;
+        // }
+
+        // var y = 0;
+        // while (y < 400) {
+        //     pintarCuadradoVerde(0,y,"red");
+        //     y = y + 50;
+        // }
+
+      for (let i = 0; i < 600; i = i + 50) {
+        pintarCuadrado(i,0,"green");
+        pintarCuadrado(i,50,"red");
+        pintarCuadrado(i,100,"blue");
+      }
+       
+
+
+        
+
+        
+        
+
+    </script>
+    
+</body>
+</html>

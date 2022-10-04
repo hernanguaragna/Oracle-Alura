@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<h1>Calculadora de Masa Muscular</h1>
+<body>
+    <script>
+        function saltarLinea() {
+            document.write("<br> <br> <br>");
+        };
+        function imprimir (texto){
+            document.write(texto);
+            saltarLinea();
+        };
+        
+        function calcularIMC(peso, altura) {
+            let imc = peso / (altura * altura);
+            return imc;
+        };
+        let nombre = prompt("Ingrese su nombre: ");
+        let peso = prompt("Hola! " + nombre +" Ingresa tu peso en Kg.");
+        let altura = prompt("Por último "+ nombre +" Ingresa tu altura ej: si medis 1.50 m poné 1.50");
+        imc = calcularIMC(peso, altura);
+        alert(nombre+" Tu IMC es: " + imc);
+        imprimir(nombre +" Tu IMC es: " + imc);
+
+        // if (imc < 18.5) {
+        //     imprimir("Tu IMC es bajo, debes comer más.");
+        // } else if (imc >= 18.5 && imc <= 24.9) {
+        //     imprimir("Tu IMC es normal, puedes seguir con tu vida.");
+        // } else if (imc >= 25 && imc <= 29.9) {
+        //     imprimir("Tu IMC es superior al normal, debes comer más.");
+        // } else {
+        //     imprimir("Tu IMC es muy superior, debes comer menos.");
+        // };
+        
+        imc >= 30 ? imprimir("Tu IMC es muy alto según la OMS.") : imc >= 25 ? imprimir("Tu IMC es alto según la OMS.") : imc >= 18.5 ? imprimir("Tu IMC es normal según la OMS.") : imprimir("Tu IMC es bajo según la OMS.");
+
+    
+    
+    </script>
+    
+</body>
+</html>

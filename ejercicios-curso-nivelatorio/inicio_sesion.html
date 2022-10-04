@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+</head>
+<h1>Inicio de Sesion</h1>
+<body>
+ <script>
+
+    let inicioDeSesionRegistrado = "alura";
+    let contrasenhaRegistrada = "alura321";
+    let intentos = 3;
+
+    var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+    var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+    // if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+    //     alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+    // } else {
+    //     alert("inicio de sesión inválido. Favor intente de nuevo");
+    // }
+    while( intentos > 0 ) {
+        if( inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada ) {
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            break;
+        } else {
+            alert("inicio de sesión inválido. Favor intente de nuevo");
+            intentos--;
+        }
+    }
+    if( intentos == 0 ) {
+        alert("Ha superado el número de intentos permitidos. Favor intente más tarde");
+    }
+    
+
+
+</script>   
+</body>
+</html>
