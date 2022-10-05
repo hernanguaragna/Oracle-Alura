@@ -27,17 +27,22 @@ cliente2.rutCliente = '8989';
 const cuentaDeMaria = new CuentaCorriente();
 cuentaDeMaria.numero = '2';
 cuentaDeMaria.agencia = '002';
-cuentaDeMaria.cliente = cliente2;
+cuentaDeMaria.setCliente = cliente2;
 
-let parametroValor = 100;
+console.log(cuentaDeMaria.getCliente)
 
-console.log('Parámetro Valor',parametroValor);
-cuentaDeLeonardo.transferirParaCuenta(parametroValor,cuentaDeMaria);
-console.log('Parámetro Valor',parametroValor);
+cuentaDeMaria.setCliente = 0
 
-const saldoMaria = cuentaDeMaria.verSaldo();
+console.log(cuentaDeMaria.getCliente)
+//let parametroValor = 100;
 
-console.log('Cuenta de Maria',cuentaDeMaria);
+// console.log('Parámetro Valor',parametroValor);
+// cuentaDeLeonardo.transferirParaCuenta(parametroValor,cuentaDeMaria);
+// console.log('Parámetro Valor',parametroValor);
+
+// const saldoMaria = cuentaDeMaria.verSaldo();
+
+// console.log('Cuenta de Maria',cuentaDeMaria);
 
 /*
 console.log('El Saldo actual (cuentaMaria) '+saldoMaria);
