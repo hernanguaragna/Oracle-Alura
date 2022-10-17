@@ -1,0 +1,24 @@
+{
+  "perfil": [
+    {
+      "nombre": "Pancho Villa",
+      "email": "pancho@alura.com",
+      "id": 1
+    },
+    {
+      "nombre": "Pedro Canoero",
+      "email": "pedro@alura.com",
+      "id": "b007442c-8aad-456b-b6a1-4fee1562eb84"
+    },
+    {
+      "nombre": "Napoleon Bonaparte",
+      "email": "napoleon@alura.com",
+      "id": 2
+    },
+    {
+      "nombre": "Veroniquita Lamas Bonita",
+      "email": "veroniquita@alura.com",
+      "id": "decbca98-d6bd-4c07-a60d-e34d04db222e"
+    }
+  ]
+}
