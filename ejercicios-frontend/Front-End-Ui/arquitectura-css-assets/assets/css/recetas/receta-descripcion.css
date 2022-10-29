@@ -1,0 +1,15 @@
+.receta__descripcion{
+
+width: 249px;
+height: 28px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 22px;
+text-align: justify;
+
+
+color: #000000;
+}
