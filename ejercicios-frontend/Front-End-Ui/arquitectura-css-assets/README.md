@@ -8,7 +8,7 @@ Prototipo: https://www.figma.com/file/ZIZuMVCGh6cE3UQvTbFsuj/alura-bootstrap?nod
 # Organice y estructuré los archivo css del proyecto
 # Simplifique los selectores CSS
 #Utilizacion de la metodologia BEM para el nombramiento de las class
-
+#Traslade y referencie las imagenes ilustrativas del HTML al CSS
 
 
 
