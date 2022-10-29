@@ -1,14 +1,11 @@
 .receta__titulo{
-width: 266px;
-height: 28px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 23px;
-line-height: 27px;
-text-align: justify;
-
-
-color: #000000;
+    width: 266px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: justify;
+    color: #000000;
 }

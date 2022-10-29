@@ -4,18 +4,11 @@
     flex-direction: column;
     margin-bottom: 5rem;
     margin-right: 5rem;
-
-
-
     box-sizing: border-box;
-
-    
     width: calc(25%-5rem) ;
-height: 384px;
-left: 83px;
-top: 898px;
-    
-    
+    height: 384px;
+    left: 83px;
+    top: 898px;
     border: 1px solid #C4C4C4;
     border-radius: 2px;
 }
