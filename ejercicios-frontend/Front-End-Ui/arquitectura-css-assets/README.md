@@ -9,6 +9,7 @@ Prototipo: https://www.figma.com/file/ZIZuMVCGh6cE3UQvTbFsuj/alura-bootstrap?nod
 # Simplifique los selectores CSS
 #Utilizacion de la metodologia BEM para el nombramiento de las class
 #Traslade y referencie las imagenes ilustrativas del HTML al CSS
+#Hice el sitio responsivo tanto para su uso en celulares, tablets y laptops
 
 
 
