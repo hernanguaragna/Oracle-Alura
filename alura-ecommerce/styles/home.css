@@ -1,4 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+   
+    
+    
+}
+.destacado{
+    background-image: url(../img/banner-champignon.jpg);
+    height: 352px;
+    width: 100%;
+    
+   background-size: 50rem;
+   background-repeat: no-repeat;
+   
+   padding: 32px;
 }
