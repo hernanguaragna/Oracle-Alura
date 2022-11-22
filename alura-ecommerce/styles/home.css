@@ -59,5 +59,33 @@ body{
 .logo-azul{
     color:#2a7ae4;
 }
+.star-wars{
+    margin: 4rem;
+}
+.div-star{
+    display: flex;
+     margin-top: 0.2rem;
+    
+    
+}
+.titulo-starWars{
+   
+    font-size: 32px;
+    color: #464646;
+    justify-content: start;
+}
+
+.parrafo-verTodo{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    
+}
+.ver-mas{
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    margin-top: 1rem;
+}
 
 
