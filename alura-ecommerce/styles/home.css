@@ -87,5 +87,11 @@ body{
     justify-content: end;
     margin-top: 1rem;
 }
-
+.footer{
+    display: flex;
+    background-color: #eaf2fd;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 
