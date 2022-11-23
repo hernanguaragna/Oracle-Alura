@@ -38,14 +38,42 @@
 
     <main>
         <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <h1 class="title" >Escribenos</h1>
+            <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre...">
+        <label for="exampleFormControlInput1" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>   
+        <label for="exampleFormControlTextarea1" class="form-label">¿Qué nos queres decir?</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tu mensaje aquí..."></textarea>
+        
+      </div> 
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Mensaje enviado</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Gracias por ponerte en contacto con AluraGeek, en breve te estaremos respondiendo.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
     </main>
+
     <footer class="footer">
         <div>
             <div class="logo-footer">
@@ -65,16 +93,21 @@
             
             <div class="contactenos-footer">
                 
-        </div> <div class="rodapie">
-                <address style= "display: flex;justify-content:center;text-align: center;">
-                    <p style="color:#FF731D"> Design by -></p> 
-                    <p style="color:#59CE8F"> Hernán Guaragna -></p>
-                    <a href="https://github.com/hernanguaragna"><img src="./img/at.svg" alt="" style="margin:3px"></a>
+        </div> <
+    </footer>
+    <rodapie>
+        <rodapie>
+            <div class="rodapie" style=" background-color: #3E6D9C;font-size: 1.3rem;display: flex;justify-content:center;text-align: center">
+                <address>
+                    <p style="color:#FF731D"> Design by<p style="color:#59CE8F;"> Hernán Guaragna</p></p> 
+                    
+                    <a href="https://github.com/hernanguaragna"><img src="./img/at.svg" alt="" style="margin: 3px"></a>
                     <a href="mailto:hernanguaragna@gmail.com"><E-mail><img src="./img/github.svg" alt=""style="margin:3px"></E-mail></a>
                     <a href="https://www.linkedin.com/in/hernanguaragna/"><img src="./img/linkedin.svg" alt=""style="margin:3px"></a>
                 </address>
               </div>
-    </footer>
+          </rodapie>
+    </rodapie>
   
     
 </body>
